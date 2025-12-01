@@ -1,0 +1,33 @@
+# NFS temp files
+.nfs*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.env
+
+# Build / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Tests / coverage
+.pytest_cache/
+.coverage*
+
+# Temp / swap
+*.log
+*.tmp
+*~
+*.swp
+*.swo

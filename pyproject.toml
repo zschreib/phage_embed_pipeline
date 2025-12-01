@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phage-emb-pipeline"
+version = "0.0.1"
+description = "Pipeline for generating and analyzing phage protein embeddings."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [
+  { name = "Zach Schreiber", email = "zschreib.dev@gmail.com" }
+]
+
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
