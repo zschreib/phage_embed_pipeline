@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "phage-emb-pipeline"
+name = "phage_emb_pipeline"
 version = "0.0.1"
 description = "Pipeline for generating and analyzing phage protein embeddings."
 readme = "README.md"
@@ -13,7 +13,13 @@ authors = [
   { name = "Zach Schreiber", email = "zschreib.dev@gmail.com" }
 ]
 
-dependencies = []
+dependencies = [
+  "torch",
+  "numpy",
+  "matplotlib",
+  "umap-learn",
+  "hdbscan",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
