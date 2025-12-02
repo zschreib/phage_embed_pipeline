@@ -16,9 +16,10 @@ authors = [
 dependencies = [
   "torch",
   "numpy",
-  "matplotlib",
+  "pandas",
   "umap-learn",
   "hdbscan",
+  "scikit-learn",
 ]
 
 [tool.setuptools.packages.find]
